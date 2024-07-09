@@ -2,7 +2,7 @@ import selfImg from "../assets/IMG_0555.jpg";
 export default function About() {
   return (
     <section className="about">
-      <h2 className="about-me">About Me</h2>
+      <h1 className="about-me">About Me</h1>
       <div className="about-content">
         <img
           className="self-photo"

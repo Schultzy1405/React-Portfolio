@@ -1,7 +1,12 @@
 * {
+  background-color: rgb(231, 231, 231);
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+}
+h1 {
+  margin-top: 6px;
+  text-align: center;
 }
 .nav {
   display: flex;
@@ -38,15 +43,35 @@
   border-bottom: solid;
 }
 .headerName {
-  font-size: 32px;
+  font-size: 34px;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(69, 176, 202);
+  font-weight: bold;
+  margin: 4px 0px 0px 8px;
+  text-align: left;
 }
 .footer {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   border-top: solid;
   list-style-type: none;
   padding: 5px;
   background-color: rgb(87, 211, 242);
+}
+.footer a {
+  display: inline-block; /* Ensure the links take up the full space */
+  text-decoration: none; /* Remove underline */
+  color: #000; /* Set the default link color */
+  padding: 10px; /* Add padding to make the links fill their space */
+  background-color: rgb(87, 211, 242);
+}
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+  color: #000; /* Ensure the color remains the same on hover, focus, and active states */
+  background-color: inherit; /* Ensure the background color remains the same on hover, focus, and active states */
+  text-decoration: none; /* Ensure underline is removed on hover, focus, and active states */
 }
 .about {
   padding-bottom: 20px;
@@ -65,6 +90,7 @@
   max-width: 200px; /* Adjust as needed */
   margin-right: 20px;
   margin-left: 5px;
+  border: solid;
 }
 .text-content {
   display: flex;
@@ -73,17 +99,10 @@
   border-radius: 10px;
   padding: 15px;
   margin-right: 10px;
-}
-.about-header {
-  margin-top: 5px;
-  text-align: center;
+  box-shadow: 2px 1px;
 }
 .about-text {
   margin-top: 10px;
-}
-.portfolio-header {
-  text-align: center;
-  margin-top: 6px;
 }
 .portfolio-container {
   display: flex;
@@ -105,19 +124,43 @@
   height: auto;
   border-radius: 5px;
 }
-.contact-header {
-  text-align: center;
-  margin-top: 5px;
-}
 .contact-form {
-  margin-left: 5px;
+  margin-left: 15px;
 }
-.resumeh1 {
-  text-align: center;
+.contact-form input[type="text"],
+.contact-form textarea {
+  background-color: #fff; /* Set background to white */
+  border: 1px solid #ccc; /* Optional: add a border */
+  padding: 10px;
+  width: 30%;
+  font-size: 16px; /* Ensure fields take up full width */
+  margin-bottom: 10px; /* Add space between fields */
+  border: solid;
+  border-radius: 6px;
+}
+.contact-form input[type="submit"] {
+  background-color: #007bff; /* Submit button background color */
+  color: #fff; /* Submit button text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.contact-form input[type="submit"]:hover {
+  background-color: #0056b3; /* Darken button on hover */
+}
+.contact-submit {
+  margin-bottom: 10px;
 }
 .projects {
-  margin-left: 4px;
+  margin: 0px 10px 20px 10px;
 }
 .skills-list {
   font-size: larger;
+}
+.projects div {
+  border: solid;
+  margin-left: 0px 2px 0px 2px;
+  border-radius: 4px;
 }

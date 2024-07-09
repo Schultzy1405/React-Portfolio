@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <>
-      <h2 className="contact-header">Contact</h2>
+      <h1 className="contact-header">Contact</h1>
 
       <form className="contact-form" action="/submit-form" method="post">
         <label htmlFor="name">Name:</label>
@@ -22,7 +22,7 @@ export default function Contact() {
         <br />
         <br />
 
-        <input type="submit" value="Submit" />
+        <input type="submit" className="contact-submit" value="Submit" />
       </form>
     </>
   );
