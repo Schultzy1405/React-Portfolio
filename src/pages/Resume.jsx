@@ -3,6 +3,11 @@ export default function Resume() {
     <>
       <h1 className="resumeh1">Resume</h1>
       <br></br>
+      <p className="resumeNote">
+        For a link to my full Resume, please go to the following{" "}
+        <a href="https://profile.indeed.com/p/eyans-2qzthbf">Resume Link</a>
+      </p>
+      <br></br>
       <div className="projects">
         <div className="summary">
           <h2>- Summary -</h2>

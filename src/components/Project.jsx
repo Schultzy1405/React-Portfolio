@@ -4,6 +4,7 @@ import Payroll from "../assets/Payroll-Tracker.png";
 import Quizlets from "../assets/Quizlets.png";
 import taskBoard from "../assets/Task-Board.png";
 import techBlog from "../assets/Tech-Blog.png";
+import noteTaker from "../assets/Note-Taker.png";
 
 export default function Project() {
   return (
@@ -18,8 +19,7 @@ export default function Project() {
           />
         </a>
         <div className="project-links">
-          <a href="https://github.com/schultzy1405">GitHub</a>
-          {/* Add other links as needed */}
+          <a href="https://github.com/schultzy1405">Github</a>
         </div>
       </section>
 
@@ -34,7 +34,6 @@ export default function Project() {
         </a>
         <div className="project-links">
           <a href="https://github.com/schultzy1405">GitHub</a>
-          {/* Add other links as needed */}
         </div>
       </section>
 
@@ -49,10 +48,8 @@ export default function Project() {
         </a>
         <div className="project-links">
           <a href="https://github.com/schultzy1405">GitHub</a>
-          {/* Add other links as needed */}
         </div>
       </section>
-
       <section className="Portfolio">
         <h2>Task Board</h2>
         <a href="https://github.com/Schultzy1405/Task-Board">
@@ -64,10 +61,8 @@ export default function Project() {
         </a>
         <div className="project-links">
           <a href="https://github.com/schultzy1405">GitHub</a>
-          {/* Add other links as needed */}
         </div>
       </section>
-
       <section className="Portfolio">
         <h2>Tech Blog</h2>
         <a href="https://github.com/Schultzy1405/Tech-Blog">
@@ -79,7 +74,19 @@ export default function Project() {
         </a>
         <div className="project-links">
           <a href="https://github.com/schultzy1405">GitHub</a>
-          {/* Add other links as needed */}
+        </div>
+      </section>
+      <section className="Portfolio">
+        <h2>Note Taker</h2>
+        <a href="https://github.com/Schultzy1405/Note-Taker">
+          <img
+            className="portfolioImg"
+            src={noteTaker}
+            alt="Screenshot of Note Taker project"
+          />
+        </a>
+        <div className="project-links">
+          <a href="https://github.com/schultzy1405">GitHub</a>
         </div>
       </section>
     </div>
